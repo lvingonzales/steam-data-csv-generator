@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+:root {
+    font-family: Abeezee;
+    color: white;
+    background-color: #332E3C;
+}
+
+a {
+    font-style: italic;
+    text-decoration: underline;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    place-content: space-around;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-items: center;
+    place-content: center;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: clamp(3rem, 4vh, 5rem);
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 5rem;
+    font-size: clamp(1.25rem, 2vh, 2.25rem);
+}
+
+
+
+

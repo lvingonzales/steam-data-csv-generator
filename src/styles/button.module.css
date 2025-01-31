@@ -1,0 +1,32 @@
+button {
+    cursor: pointer;
+    background-color: #C6D8D3;
+    width: clamp(200px, 50vw, 600px);
+    height: 50px;
+    align-self: center;
+    border: none;
+    border-radius: 25px;
+    color: #332E3C;
+    font-size: 2rem;
+    font-weight: 800;
+    transform: scale(1);
+    transition: 0.2s background-color ease-in-out, 0.1s transform ease-in-out;
+}
+
+button:hover {
+    background-color: #9eaba7;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.wrapper {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
